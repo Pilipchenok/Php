@@ -1,0 +1,91 @@
+/**{
+    margin: 0;
+    padding: 0;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&family=Roboto+Mono&family=Roboto+Slab&display=swap');
+body{
+    font-family: 'Oswald';
+}
+.HF{
+    width: 100%;
+}
+.left{
+    background-color: #C0C0C0;
+    margin-top: 0%;
+    height: 100%;
+    padding-bottom: 300%px;
+    
+}
+a{
+    text-decoration: none;
+    color:rgb(13, 34, 54);
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 13% 87%;
+}
+
+.sale{
+    margin: auto;
+    width: 80%;
+    border-radius: 12px;
+    margin-bottom: 100px;
+}
+.docs{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    justify-items: center;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.delivery .serv .cont .amm{
+    margin: 0;
+    width: 100%;
+
+}
+.aaa{
+    width: 100%;
+    border-radius: 10px;
+}
+p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+.contacts{
+    vertical-align: middle;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    justify-items: center;
+    margin: 9% 0;
+    background-color: #fff;
+    padding: 5px;
+}
+.b1, .b2, .b3ex, .b4{
+    background-color:#C0C0C0;
+    padding-top: 5px;
+    border-radius: 8px;
+    height: 100%;
+    padding-bottom: 0;
+}
+.b3{
+    padding: 5px 5px 0px 5px;
+}
+.rad{
+    border-radius: 10px;
+}
+.bask{
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 3px;
+}
+.vk{
+    padding: 0;
+}
